@@ -97,13 +97,14 @@ textarea {
 /*}*/
 
 /*formats the submit button on the contact form page*/
-/*.btn-mine{*/
-    /*background-color: #4aaaa5 !important;*/
-    /*color: #ffffff !important;*/
-    /*padding: 7px 20px;*/
-    /*border: none;*/
-    /*cursor: pointer;*/
-/*}*/
+.myButton {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 7px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
 
 /*formats the profile picture on the about page*/
 #profilePicture {
