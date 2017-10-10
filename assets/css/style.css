@@ -76,15 +76,6 @@
     max-width: 850px;
 }
 
-/*formats the contact form area*/
-/*input[type=text], select, textarea {*/
-    /*width: 100%;*/
-    /*padding: 12px;*/
-    /*border: 1px solid #dddddd;*/
-    /*box-sizing: border-box;*/
-    /*margin-top: 6px;*/
-    /*margin-bottom: 16px;*/
-/*}*/
 
 /*creates a larger message box for the contact form*/
 textarea {
@@ -233,7 +224,18 @@ a:hover {
     text-decoration: none;
 }
 
-@media screen and (max-width:992px){
+@media screen and (max-width:992px) {
     .mainContent {
         margin-bottom: 20px;
+    }
+
+    #profilePicture {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width:767px){
+    #profilePicture {
+        max-width: none;
+    }
 }
