@@ -7,4 +7,4 @@ Contains my Bootstrap responsive portfolio. Within the file is a short biography
 
 ##Languages Used:
 *HTML
-*CSS (with Boostrap CDN)
+*CSS (with Bootstrap CDN)
